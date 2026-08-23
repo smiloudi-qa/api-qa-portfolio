@@ -1,0 +1,17 @@
+{
+  "name": "api-qa-portfolio",
+  "version": "1.0.0",
+  "description": "Suite de tests API automatisés avec Playwright",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": ["qa", "playwright", "api-testing", "istqb"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.42.0"
+  }
+}
