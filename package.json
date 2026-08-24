@@ -8,10 +8,16 @@
     "test": "npx playwright test",
     "test:report": "npx playwright show-report"
   },
-  "keywords": ["qa", "playwright", "api-testing", "istqb"],
+  "keywords": [
+    "qa",
+    "playwright",
+    "api-testing",
+    "istqb"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.42.0"
+    "@playwright/test": "^1.42.0",
+    "ajv": "^8.20.0"
   }
 }
